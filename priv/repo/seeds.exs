@@ -7,7 +7,7 @@ at = fn h, m ->
   dt
 end
 
-# Note: the 10:00 Maple booking overlaps the 12:00 one — kept on purpose for the demo data.
+# Note: the 11:00 Maple booking overlaps the 12:00 one — kept on purpose for the demo data.
 bookings = [
   %{room_name: "Oak",   user_email: "alice@example.com", start_at: at.(9, 0),   end_at: at.(10, 0)},
   %{room_name: "Oak",   user_email: "bob@example.com",   start_at: at.(10, 0),  end_at: at.(11, 0)},

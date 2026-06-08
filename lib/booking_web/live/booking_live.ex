@@ -6,7 +6,7 @@ defmodule BookingWeb.BookingLive do
 
   @impl true
   def mount(_params, _session, socket) do
-    today = ~D[2026-05-28]
+    today = Date.utc_today()
 
     socket =
       socket
